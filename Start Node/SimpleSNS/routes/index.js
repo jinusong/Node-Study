@@ -7,7 +7,7 @@ var passport = require('passport');
 var GoogleStrategy = require('passport-google-oauth').OAuth2Strategy;
 
 var mongoose = require('mongoose');
-var db = mongoose.connect('mongodb+srv://memoUser:boraborasum7476!@mongo-memo-rlsck.mongodb.net/test?retryWrites=true', { useNewUrlParser: true });
+var db = mongoose.connect('mongodb+srv://memoUser:비밀번호@mongo-memo-rlsck.mongodb.net/test?retryWrites=true', { useNewUrlParser: true });
 var Schema = mongoose.Schema;
 
 var Post = new Schema({
