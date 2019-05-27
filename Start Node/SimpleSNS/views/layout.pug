@@ -1,0 +1,13 @@
+doctype html
+html
+	head
+		meta(charset='utf-8')
+		title SNS 예제
+		script(src='//code.jquery.com/jquery.min.js')
+		script(src='/javascripts/main.js')
+		link(rel='stylesheet', href='/stylesheets/style.css')
+	body
+		center
+			input#login_button.button(type='button', onclick="location.href='/auth/google'", value='구글로 로그인') 
+			input#logout_button.button(type='button', onclick="location.href='/logout'", value='로그아웃')
+		block content

@@ -1,0 +1,15 @@
+extends layout
+
+block content
+	#main
+		#title SNS 서비스 예제
+		#message
+			.left
+				img.photo(src=picture)
+				input#author.author(type='text', value= name, readonly)
+			.right
+				textarea(placeholder='내용을 입력하세요.')
+				br
+				input#write_button(type='button', value='쓰기')
+		#wall
+			.item
