@@ -11,7 +11,7 @@
     "express": "^4.16.4",
     "express-session": "^1.16.1",
     "http-errors": "^1.6.3",
-    "mongoose": "^5.5.11",
+    "mongoose": "^5.7.5",
     "morgan": "^1.9.1",
     "passport": "^0.4.0",
     "passport-google-oauth": "^2.0.0",
